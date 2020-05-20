@@ -1,0 +1,62 @@
+/* Imagen inicio*/
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.navbar {
+    background-color: transparent;
+    transition: .5s;
+}
+
+.top-nav-collapse {
+    background-color: #00695c;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        background-color: #00695c;
+    }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+/* Imagen inicio*/
+
+
+/* Boton Whatsapp */
+.fa-whatsapp{
+    font-size: 40px !important;
+}
+#wa-btn{
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 13px;
+}
+/* Boton Whatsapp */
+
+.hr-p{
+  color: #666;
+   background-color: #32d7e6;
+}
+
+.fg{
+  filter:brightness(0.7);
+  position:fixed;
+  width:100%;
+  height:100%;
+}
